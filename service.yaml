@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    apps: nginx
+    app: nginx
   ports:
   - nodePort: 30007
     port: 80
